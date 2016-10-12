@@ -150,6 +150,12 @@ namespace TicTacToe
                 row = 2;
                 return true;
             }
+            else if (arr[1,2] == 2 && arr[2,1] == 2)
+            {
+                col = 2;
+                row = 2;
+                return true;
+            }
             col = -1;
             row = -1;
             return false;
