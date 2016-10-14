@@ -122,6 +122,7 @@ namespace TicTacToe
         private bool Reset()
         {
             count = 0;
+            level = 0;
             gameCounter++;
             lblDraws.Text = Convert.ToString(drawCounter);
             lblLosses.Text = Convert.ToString(lossCounter);
